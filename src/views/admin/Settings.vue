@@ -178,6 +178,7 @@ const form = reactive({
   contact: {
     telegram: '',
     whatsapp: '',
+    discord: '',
   },
   seo: {
     title: createLocalizedField(),
@@ -887,6 +888,10 @@ onMounted(() => {
           <div class="space-y-2">
             <label class="text-xs font-medium text-muted-foreground">{{ t('admin.settings.contact.whatsapp') }}</label>
             <Input v-model="form.contact.whatsapp" :placeholder="t('admin.settings.contact.whatsappPlaceholder')" />
+          </div>
+          <div class="space-y-2">
+            <label class="text-xs font-medium text-muted-foreground">{{ t('admin.settings.contact.discord') }}</label>
+            <Input v-model="form.contact.discord" :placeholder="t('admin.settings.contact.discordPlaceholder')" />
           </div>
         </div>
       </div>

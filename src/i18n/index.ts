@@ -2507,6 +2507,8 @@ const messages = {
           telegramPlaceholder: 'https://t.me/...',
           whatsapp: 'WhatsApp 链接',
           whatsappPlaceholder: 'https://wa.me/...',
+          discord: 'Discord 链接',
+          discordPlaceholder: 'https://discord.gg/...',
         },
         footerLinks: {
           title: '页脚自定义链接',
@@ -5778,6 +5780,8 @@ const messages = {
           telegramPlaceholder: 'https://t.me/...',
           whatsapp: 'WhatsApp 連結',
           whatsappPlaceholder: 'https://wa.me/...',
+          discord: 'Discord 連結',
+          discordPlaceholder: 'https://discord.gg/...',
         },
         footerLinks: {
           title: '頁尾自訂連結',
@@ -9049,6 +9053,8 @@ const messages = {
           telegramPlaceholder: 'https://t.me/...',
           whatsapp: 'WhatsApp',
           whatsappPlaceholder: 'https://wa.me/...',
+          discord: 'Discord',
+          discordPlaceholder: 'https://discord.gg/...',
         },
         footerLinks: {
           title: 'Custom Footer Links',
